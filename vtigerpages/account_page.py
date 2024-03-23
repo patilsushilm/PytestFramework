@@ -6,7 +6,7 @@ from vtigercommonactions.common_actions import common_actions
 
 
 class account_page(common_actions):
-
+    print("hello")
     elm_new_account = (By.LINK_TEXT,"New Account")
     elm_change = (By.NAME, "btn1")
     elm_vtiger = (By.LINK_TEXT, "vtiger")
